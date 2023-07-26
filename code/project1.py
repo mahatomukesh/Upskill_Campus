@@ -113,7 +113,7 @@ class Main(tk.Tk):
 
 
 if __name__ == '__main__':
-    converter = CurrencyConverter('https://api.exchangerate.host/latest')
+    converter = CurrencyConverter('https://apii.exchangerate.host/latest')
     Main(converter)
     mainloop()
 
